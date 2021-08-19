@@ -1,0 +1,103 @@
+Date : 2021-08-09 14:32:16
+Directory : c:\Users\KijeviGombooc\Desktop\taboo
+Total : 45 files,  2217 codes, 216 comments, 235 blanks, all 2668 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         22 |      1,691 |        106 |        165 |      1,962 |
+| JSON       |          3 |        168 |          0 |          3 |        171 |
+| XML        |          9 |        125 |         51 |         11 |        187 |
+| Groovy     |          3 |         92 |          1 |         21 |        114 |
+| HTML       |          1 |         79 |         14 |          6 |         99 |
+| YAML       |          1 |         28 |         43 |         15 |         86 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Swift      |          1 |         12 |          0 |          2 |         14 |
+| Properties |          2 |          8 |          1 |          2 |         11 |
+| C++        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                               | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                  |         45 |      2,217 |        216 |        235 |      2,668 |
+| android                                                                                            |         12 |        164 |         51 |         32 |        247 |
+| android\app                                                                                        |          8 |        123 |         50 |         21 |        194 |
+| android\app\src                                                                                    |          7 |         64 |         49 |          9 |        122 |
+| android\app\src\debug                                                                              |          1 |          4 |          3 |          1 |          8 |
+| android\app\src\main                                                                               |          5 |         56 |         43 |          7 |        106 |
+| android\app\src\main\res                                                                           |          4 |         26 |         32 |          6 |         64 |
+| android\app\src\main\res\drawable                                                                  |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\drawable-v21                                                              |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\values                                                                    |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\values-night                                                              |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\profile                                                                            |          1 |          4 |          3 |          1 |          8 |
+| android\gradle                                                                                     |          1 |          5 |          1 |          1 |          7 |
+| android\gradle\wrapper                                                                             |          1 |          5 |          1 |          1 |          7 |
+| ios                                                                                                |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner                                                                                         |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner\Assets.xcassets                                                                         |          3 |        148 |          0 |          4 |        152 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                      |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                    |          2 |         26 |          0 |          3 |         29 |
+| ios\Runner\Base.lproj                                                                              |          2 |         61 |          2 |          2 |         65 |
+| lib                                                                                                |         21 |      1,677 |         96 |        158 |      1,931 |
+| lib\models                                                                                         |          7 |        424 |          7 |         53 |        484 |
+| lib\screens                                                                                        |          5 |        619 |          6 |         48 |        673 |
+| lib\widgets                                                                                        |          8 |        537 |          4 |         51 |        592 |
+| test                                                                                               |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                |          2 |        102 |         14 |          7 |        123 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                           | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\KijeviGombooc\Desktop\taboo\README.md                                                     | Markdown   |         10 |          0 |          7 |         17 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\build.gradle                                      | Groovy     |         59 |          1 |         12 |         72 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\debug\AndroidManifest.xml                     | XML        |          4 |          3 |          1 |          8 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\main\AndroidManifest.xml                      | XML        |         30 |         11 |          1 |         42 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\main\res\drawable-v21\launch_background.xml   | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\main\res\drawable\launch_background.xml       | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\main\res\values-night\styles.xml              | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\main\res\values\styles.xml                    | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\app\src\profile\AndroidManifest.xml                   | XML        |          4 |          3 |          1 |          8 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\build.gradle                                          | Groovy     |         25 |          0 |          5 |         30 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\gradle.properties                                     | Properties |          3 |          0 |          1 |          4 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\gradle\wrapper\gradle-wrapper.properties              | Properties |          5 |          1 |          1 |          7 |
+| c:\Users\KijeviGombooc\Desktop\taboo\android\settings.gradle                                       | Groovy     |          8 |          0 |          4 |         12 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\AppDelegate.swift                                  | Swift      |         12 |          0 |          2 |         14 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json   | JSON       |        122 |          0 |          1 |        123 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json | JSON       |         23 |          0 |          1 |         24 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md     | Markdown   |          3 |          0 |          2 |          5 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Base.lproj\LaunchScreen.storyboard                 | XML        |         36 |          1 |          1 |         38 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Base.lproj\Main.storyboard                         | XML        |         25 |          1 |          1 |         27 |
+| c:\Users\KijeviGombooc\Desktop\taboo\ios\Runner\Runner-Bridging-Header.h                           | C++        |          1 |          0 |          1 |          2 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\main.dart                                                 | Dart       |         97 |         79 |          6 |        182 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\ClockPainter.dart                                  | Dart       |         41 |          0 |          8 |         49 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\DBHelper.dart                                      | Dart       |        177 |          5 |         22 |        204 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\Formatter.dart                                     | Dart       |         99 |          2 |          5 |        106 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\Game.dart                                          | Dart       |          5 |          0 |          2 |          7 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\Settings.dart                                      | Dart       |         85 |          0 |         11 |         96 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\Team.dart                                          | Dart       |          9 |          0 |          3 |         12 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\models\Word.dart                                          | Dart       |          8 |          0 |          2 |         10 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\screens\GameScreen.dart                                   | Dart       |        182 |          6 |         15 |        203 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\screens\LoadGameScreen.dart                               | Dart       |         70 |          0 |         11 |         81 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\screens\MainMenuScreen.dart                               | Dart       |         74 |          0 |          5 |         79 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\screens\SettingsScreen.dart                               | Dart       |        135 |          0 |          7 |        142 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\screens\TeamsScreen.dart                                  | Dart       |        158 |          0 |         10 |        168 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\AlignedButton.dart                                | Dart       |         32 |          0 |          4 |         36 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\AlignedButtonWithScore.dart                       | Dart       |         53 |          3 |          4 |         60 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\ClockWidget.dart                                  | Dart       |         95 |          0 |         13 |        108 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\GameOverWidget.dart                               | Dart       |         92 |          0 |          5 |         97 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\GameRunningWidget.dart                            | Dart       |         61 |          1 |          5 |         67 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\SteppableNumericInput.dart                        | Dart       |         75 |          0 |          8 |         83 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\WordWidget.dart                                   | Dart       |         41 |          0 |          4 |         45 |
+| c:\Users\KijeviGombooc\Desktop\taboo\lib\widgets\WordsReviewWidget.dart                            | Dart       |         88 |          0 |          8 |         96 |
+| c:\Users\KijeviGombooc\Desktop\taboo\pubspec.yaml                                                  | YAML       |         28 |         43 |         15 |         86 |
+| c:\Users\KijeviGombooc\Desktop\taboo\test\widget_test.dart                                         | Dart       |         14 |         10 |          7 |         31 |
+| c:\Users\KijeviGombooc\Desktop\taboo\web\index.html                                                | HTML       |         79 |         14 |          6 |         99 |
+| c:\Users\KijeviGombooc\Desktop\taboo\web\manifest.json                                             | JSON       |         23 |          0 |          1 |         24 |
+| Total                                                                                              |            |      2,217 |        216 |        235 |      2,668 |
++----------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
