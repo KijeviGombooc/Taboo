@@ -192,6 +192,7 @@ class DBHelper {
       where: "word_id = ?",
       whereArgs: [id],
     );
+    taboosMaps.shuffle();
     Word word = Word(
       word: wordMaps[0]["word"],
       taboos: List.generate(taboosMaps.length, (i) {
