@@ -192,12 +192,13 @@ class DBHelper {
       where: "word_id = ?",
       whereArgs: [id],
     );
-    taboosMaps.shuffle();
+    List<String> taboos = List.generate(taboosMaps.length, (i) {
+      return taboosMaps[i]["taboo"];
+    });
+    taboos.shuffle();
     Word word = Word(
       word: wordMaps[0]["word"],
-      taboos: List.generate(taboosMaps.length, (i) {
-        return taboosMaps[i]["taboo"];
-      }),
+      taboos: taboos,
     );
     return word;
   }
