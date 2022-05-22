@@ -16,51 +16,26 @@ class GameRunningWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MediaQuery.of(context).orientation == Orientation.portrait
-        ? Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Center(
-                child: WordWidget(
-                  word: word,
-                ),
-              ),
-              Flexible(
-                child: Padding(
-                  padding: const EdgeInsets.all(40.0),
-                  child: ClockWidget(
-                    // key: fullDuration.inMilliseconds == 0 ? Key("0") : null,
-                    fullDuration: Duration(seconds: Settings.gameDuration),
-                    onTimeDone: onTimeDone,
-                  ),
-                ),
-              ),
-            ],
-          )
-        : Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Flexible(
-                fit: FlexFit.tight,
-                child: Center(
-                  child: WordWidget(
-                    word: word,
-                  ),
-                ),
-              ),
-              Flexible(
-                fit: FlexFit.loose,
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: ClockWidget(
-                    fullDuration: Duration(seconds: Settings.gameDuration),
-                    onTimeDone: onTimeDone,
-                  ),
-                ),
-              ),
-            ],
-          );
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Center(
+          child: WordWidget(
+            word: word,
+          ),
+        ),
+        Flexible(
+          child: Padding(
+            padding: const EdgeInsets.all(40.0),
+            child: ClockWidget(
+              // key: fullDuration.inMilliseconds == 0 ? Key("0") : null,
+              fullDuration: Duration(seconds: Settings.gameDuration),
+              onTimeDone: onTimeDone,
+            ),
+          ),
+        ),
+      ],
+    );
   }
 }
