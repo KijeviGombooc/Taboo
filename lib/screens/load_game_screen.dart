@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/Game.dart';
-import 'package:taboo/models/Formatter.dart';
-import 'package:taboo/models/DBHelper.dart';
+import 'package:taboo/models/game.dart';
+import 'package:taboo/models/formatter.dart';
+import 'package:taboo/models/db_helper.dart';
 
-import 'TeamsScreen.dart';
+import 'teams_screen.dart';
 
 class LoadGameScreen extends StatefulWidget {
   const LoadGameScreen();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/Word.dart';
+import 'package:taboo/models/word.dart';
 
 class WordWidget extends StatelessWidget {
   final Word word;

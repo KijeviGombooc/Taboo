@@ -3,11 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:taboo/models/Formatter.dart';
-import 'package:taboo/models/Word.dart';
+import 'package:taboo/models/formatter.dart';
+import 'package:taboo/models/word.dart';
 
-import 'Game.dart';
-import 'Team.dart';
+import 'game.dart';
+import 'team.dart';
 
 class DBHelper {
   static late Database _db;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/Word.dart';
+import 'package:taboo/models/word.dart';
 
-import 'WordsReviewWidget.dart';
+import 'words_review_widget.dart';
 
 class GameOverWidget extends StatelessWidget {
   final List<Word> wrongs;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/DBHelper.dart';
-import 'package:taboo/models/Settings.dart';
-import 'package:taboo/screens/LoadGameScreen.dart';
-import 'package:taboo/screens/SettingsScreen.dart';
-import 'package:taboo/screens/TeamsScreen.dart';
+import 'package:taboo/models/db_helper.dart';
+import 'package:taboo/models/settings.dart';
+import 'package:taboo/screens/load_game_screen.dart';
+import 'package:taboo/screens/settings_screen.dart';
+import 'package:taboo/screens/teams_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/Team.dart';
-import 'package:taboo/models/DBHelper.dart';
-import 'package:taboo/screens/GameScreen.dart';
+import 'package:taboo/models/team.dart';
+import 'package:taboo/models/db_helper.dart';
+import 'package:taboo/screens/game_screen.dart';
 
 class TeamsScreen extends StatefulWidget {
   final gameID;

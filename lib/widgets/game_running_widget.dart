@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/Settings.dart';
-import 'package:taboo/models/Word.dart';
+import 'package:taboo/models/settings.dart';
+import 'package:taboo/models/word.dart';
 
-import 'ClockWidget.dart';
-import 'WordWidget.dart';
+import 'clock_widget.dart';
+import 'word_widget.dart';
 
 class GameRunningWidget extends StatelessWidget {
   final Word word;

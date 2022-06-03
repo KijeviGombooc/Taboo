@@ -1,7 +1,7 @@
 import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
-import 'package:taboo/models/ClockPainter.dart';
-import 'package:taboo/models/Settings.dart';
+import 'package:taboo/models/clock_painter.dart';
+import 'package:taboo/models/settings.dart';
 
 class ClockWidget extends StatefulWidget {
   final Duration fullDuration;
