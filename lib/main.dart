@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:taboo/models/DBHelper.dart';
+import 'package:taboo/models/db_helper.dart';
 import 'package:taboo/models/Settings.dart';
-import 'package:taboo/screens/MainMenuScreen.dart';
+import 'package:taboo/screens/main_menu_screen.dart';
 
 main(List<String> args) {
   WidgetsFlutterBinding.ensureInitialized();
