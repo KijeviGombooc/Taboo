@@ -3,18 +3,19 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:taboo/models/formatter.dart';
-import 'package:taboo/models/word.dart';
+import 'package:akon/models/formatter.dart';
+import 'package:akon/models/word.dart';
 
 import 'game.dart';
 import 'team.dart';
 
 class DBHelper {
   static late Database _db;
+  static const dbName = "akon.db";
 
   static Future<void> init() async {
     if (kIsWeb) return;
-    var path = join(await getDatabasesPath(), "taboo.db");
+    var path = join(await getDatabasesPath(), dbName);
 
     // Check if the database exists
     bool exists = await databaseExists(path);
@@ -28,7 +29,7 @@ class DBHelper {
       } catch (_) {}
 
       // Copy from asset
-      ByteData data = await rootBundle.load(join("assets", "taboo.db"));
+      ByteData data = await rootBundle.load(join("assets", dbName));
       List<int> bytes =
           data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
 
@@ -41,7 +42,7 @@ class DBHelper {
 
   static Future<void> openDB() async {
     if (kIsWeb) return;
-    _db = await openDatabase(join(await getDatabasesPath(), "taboo.db"),
+    _db = await openDatabase(join(await getDatabasesPath(), dbName),
         readOnly: false);
   }
 

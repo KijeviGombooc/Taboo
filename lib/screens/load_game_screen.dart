@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/game.dart';
-import 'package:taboo/models/formatter.dart';
-import 'package:taboo/models/db_helper.dart';
+import 'package:akon/models/game.dart';
+import 'package:akon/models/formatter.dart';
+import 'package:akon/models/db_helper.dart';
 
 import 'teams_screen.dart';
 

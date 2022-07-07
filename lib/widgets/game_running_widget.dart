@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/settings.dart';
-import 'package:taboo/models/word.dart';
+import 'package:akon/models/settings.dart';
+import 'package:akon/models/word.dart';
 
 import 'clock_widget.dart';
 import 'word_widget.dart';

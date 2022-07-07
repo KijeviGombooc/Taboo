@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/settings.dart';
-import 'package:taboo/widgets/steppable_numeric_input.dart';
+import 'package:akon/models/settings.dart';
+import 'package:akon/widgets/steppable_numeric_input.dart';
 
 class SettingsScreen extends StatelessWidget {
   static const int skipOptionCount = 10;

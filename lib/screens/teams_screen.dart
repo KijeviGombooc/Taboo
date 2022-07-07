@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/team.dart';
-import 'package:taboo/models/db_helper.dart';
-import 'package:taboo/screens/game_screen.dart';
+import 'package:akon/models/team.dart';
+import 'package:akon/models/db_helper.dart';
+import 'package:akon/screens/game_screen.dart';
 
 class TeamsScreen extends StatefulWidget {
   final gameID;
@@ -26,7 +26,7 @@ class _TeamsScreenState extends State<TeamsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Taboo"),
+        title: Text("Akon"),
         centerTitle: true,
       ),
       body: teamsData == null || currentTeam == null

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.taboo">
+    package="com.gmail.kijevigombooc.akon">
    <application
-        android:label="Taboo"
+        android:label="Akon"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

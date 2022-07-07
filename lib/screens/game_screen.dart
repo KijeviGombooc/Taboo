@@ -1,14 +1,14 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:taboo/main.dart';
-import 'package:taboo/models/db_helper.dart';
-import 'package:taboo/models/settings.dart';
-import 'package:taboo/models/word.dart';
-import 'package:taboo/widgets/aligned_button.dart';
-import 'package:taboo/widgets/aligned_button_with_score.dart';
-import 'package:taboo/widgets/game_over_widget.dart';
-import 'package:taboo/widgets/game_running_widget.dart';
+import 'package:akon/main.dart';
+import 'package:akon/models/db_helper.dart';
+import 'package:akon/models/settings.dart';
+import 'package:akon/models/word.dart';
+import 'package:akon/widgets/aligned_button.dart';
+import 'package:akon/widgets/aligned_button_with_score.dart';
+import 'package:akon/widgets/game_over_widget.dart';
+import 'package:akon/widgets/game_running_widget.dart';
 
 class GameScreen extends StatefulWidget {
   final int gameID;
@@ -38,7 +38,7 @@ class _GameScreenState extends State<GameScreen> {
     return SafeArea(
       child: Scaffold(
         // appBar: AppBar(
-        //   title: Text("Taboo"),
+        //   title: Text("Akon"),
         //   centerTitle: true,
         // ),
         body: Padding(

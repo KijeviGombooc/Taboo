@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/word.dart';
+import 'package:akon/models/word.dart';
 
 class WordsReviewWidget extends StatefulWidget {
   final List<Word> words;

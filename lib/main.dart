@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:taboo/models/db_helper.dart';
-import 'package:taboo/models/Settings.dart';
-import 'package:taboo/screens/main_menu_screen.dart';
+import 'package:akon/models/db_helper.dart';
+import 'package:akon/models/Settings.dart';
+import 'package:akon/screens/main_menu_screen.dart';
 
 main(List<String> args) {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
     }
 
     return MaterialApp(
-      title: "Taboo",
+      title: "Akon",
       theme: ThemeData(
         // brightness: ,
         // visualDensity: ,

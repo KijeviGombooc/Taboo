@@ -1,7 +1,7 @@
 import 'dart:math' as Math;
 
 import 'package:flutter/material.dart';
-import 'package:taboo/main.dart';
+import 'package:akon/main.dart';
 
 class ClockPainter extends CustomPainter {
   static const Color lineColor = MyApp.primaryColor;

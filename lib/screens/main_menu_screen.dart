@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:taboo/models/db_helper.dart';
-import 'package:taboo/models/settings.dart';
-import 'package:taboo/screens/load_game_screen.dart';
-import 'package:taboo/screens/settings_screen.dart';
-import 'package:taboo/screens/teams_screen.dart';
+import 'package:akon/models/db_helper.dart';
+import 'package:akon/models/settings.dart';
+import 'package:akon/screens/load_game_screen.dart';
+import 'package:akon/screens/settings_screen.dart';
+import 'package:akon/screens/teams_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Taboo"),
+        title: Text("Akon"),
         centerTitle: true,
       ),
       body: Center(
